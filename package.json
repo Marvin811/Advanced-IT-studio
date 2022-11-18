@@ -1,0 +1,19 @@
+{
+  "name": "advanced-it-studio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marvin811/Advanced-IT-studio.git"
+  },
+  "author": "Marvin811 (Egor Lukin)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marvin811/Advanced-IT-studio/issues"
+  },
+  "homepage": "https://github.com/Marvin811/Advanced-IT-studio#readme"
+}
