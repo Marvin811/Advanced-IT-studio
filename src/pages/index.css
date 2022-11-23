@@ -333,17 +333,15 @@
     padding: 13px 0 15px 0;
 }
 
-
-
-.our-work {
+.all-services__block-background {
     color: #323232;
     background: #fff;
     width: 1920px;
     height: 482px;
 }
 
-.our-work__container {
-    width: 1920px;
+.all-services__block-container {
+    width: 1110px;
     border-bottom: 1px solid #E0E0E0;
     display: flex;
     justify-content: center;
@@ -358,17 +356,17 @@
     gap: 30px;
 }
 
-.our-work__content {
+.all-services__block-content {
     width: 350px;
 }
 
-.our-work__image {
+.all-services__block-image {
     width: 350px;
     height: 300px;
     border-radius: 10px;
 }
 
-.our-work__title {
+.all-services__block-title {
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -377,7 +375,7 @@
     margin: 30px auto 30px 0;
 }
 
-.our-work__text {
+.all-services__block-text {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -386,7 +384,7 @@
     margin: 30px auto 30px 0;
 }
 
-.our-work__link {
+.all-services__block-link {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -395,9 +393,73 @@
     color: #4985FF;
 }
 
-.project{
+.project {
     width: 1920px;
     margin: 0 auto;
+    background: #F6F6F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.project__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    margin: 100px auto 50px;
+    color: #000000;
+}
+
+.project__text {
+    margin: 0 auto 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+}
+
+.project__content {
+    display: flex;
+    gap: 30px;
+    max-width: 1110px;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+
+}
+
+.project__items {
+    cursor: pointer;
+
+}
+
+.project__item {
+    width: 255px;
+    height: 255px;
+    border-radius: 10px;
+    border: none;
+}
+
+.project__link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 13px 36px 15px;
+    max-width: 200px;
+    background: #4985FF;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    margin: 50px auto 130px;
 }
 
 
