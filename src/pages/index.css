@@ -20,6 +20,12 @@
     width: 1920px;
 }
 
+@media screen and (max-width: 1439px) {
+    .header {
+        width: 1440px;
+    }
+}
+
 .header__border {
     border: 1px white solid;
     width: 100%;
@@ -28,13 +34,19 @@
     opacity: 0.5;
 }
 
+
 .header__menu {
     max-width: 960px;
     position: absolute;
     top: 0;
     right: 0;
     margin: 25px 407px 40px auto;
+}
 
+@media screen and (max-width: 1439px) {
+    .header__menu {
+        max-width: 900px;
+    }
 }
 
 .header__list {
