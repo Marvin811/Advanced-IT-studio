@@ -26,6 +26,37 @@
     }
 }
 
+
+@media screen and (max-width: 1279px) {
+    .header {
+        width: 1280px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .header {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        width: 320px;
+    }
+}
+
 .header__border {
     border: 1px white solid;
     width: 100%;
@@ -43,9 +74,51 @@
     margin: 25px 407px 40px auto;
 }
 
+@media screen and (max-width: 1599px) {
+    .header__menu {
+        max-width: 800px;
+        margin: 25px 850px 40px auto;
+    }
+}
+
 @media screen and (max-width: 1439px) {
     .header__menu {
-        max-width: 900px;
+        max-width: 800px;
+        margin: 25px 450px 40px auto;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .header__menu {
+        max-width: 700px;
+        margin: 25px 380px 40px auto;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__menu {
+        max-width: 800px;
+        margin: 25px 350px 40px auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__menu {
+        max-width: 700px;
+        margin: 25px 80px 40px auto;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .header__menu {
+        max-width: 450px;
+        margin: 25px 25px 40px auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__menu {
+        max-width: 300px;
     }
 }
 
@@ -79,6 +152,44 @@
     margin: 0 auto;
     background: url("../images/rectangle.png") no-repeat;
 }
+
+@media screen and (max-width: 1439px) {
+    .intro {
+        width: 1440px;
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .intro {
+        width: 1280px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        width: 1024px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .intro {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro {
+        width: 320px;
+    }
+}
+
 
 .intro__container {
     max-width: 1140px;
