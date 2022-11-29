@@ -3,3 +3,10 @@
   margin: 0 auto 207px;
   width: 100%;
 }
+
+
+@media screen and (max-width: 1279px) {
+  .about-us  {
+    margin: 0 auto 107px;
+  }
+}
