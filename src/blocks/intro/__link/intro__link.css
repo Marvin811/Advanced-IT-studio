@@ -1,0 +1,13 @@
+.intro__link {
+  background: #4985ff;
+  box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  max-width: 200px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin: 33px auto 0;
+  padding: 13px 36px 15px;
+}

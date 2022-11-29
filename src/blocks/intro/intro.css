@@ -1,0 +1,8 @@
+.intro {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background-size: cover;
+  margin: 0 auto;
+  background: url("../../images/rectangle.png") no-repeat;
+}

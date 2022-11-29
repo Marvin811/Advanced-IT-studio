@@ -1,0 +1,16 @@
+.about-us__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 53px;
+  color: #323232;
+  margin: 52px auto 15px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .about-us__title {
+    margin: 0 auto 25px auto;
+    text-align: center;
+  }
+}

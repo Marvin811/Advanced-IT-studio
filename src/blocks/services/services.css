@@ -1,0 +1,9 @@
+.services {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  color: #323232;
+  background: #fff;
+  width: 100%;
+}

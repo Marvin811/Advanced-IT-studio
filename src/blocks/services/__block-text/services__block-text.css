@@ -1,0 +1,9 @@
+.services__block-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 222px;
+  margin: 0 0 0 17px;
+}

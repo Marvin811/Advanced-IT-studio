@@ -1,0 +1,14 @@
+.about-us__image {
+  box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  margin: 0 0 90px 0;
+  width: 500px;
+  height: 400px;
+}
+
+@media screen and (max-width: 1279px) {
+  .about-us__image {
+    margin: 0 0 45px 0;
+      
+  }
+}
