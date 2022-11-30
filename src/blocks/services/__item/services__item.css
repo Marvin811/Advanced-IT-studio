@@ -6,3 +6,11 @@
   padding: 0 5px;
   align-items: center;
 }
+
+.services__item:nth-child(n + 4) {
+  display: none;
+}
+
+.services__item.is-visible {
+  display: flex;
+}

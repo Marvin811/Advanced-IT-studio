@@ -1,7 +1,0 @@
-.all-services__block-content.is-visible {
-  width: 350px;
-}
-
-.all-services__block-content:nth-child(n + 1) {
-	display: none;
-}

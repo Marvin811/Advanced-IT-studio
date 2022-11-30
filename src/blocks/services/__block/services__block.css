@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
   margin: 70px auto 45px;
   max-width: 1133px;
@@ -10,7 +10,14 @@
 
 @media screen and (max-width: 1279px) {
   .services__block {
-      flex-direction: column;
-      margin: 45px auto;
+    max-width: 740px;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services__block {
+    flex-direction: column;
+    margin: 45px auto;
   }
 }
