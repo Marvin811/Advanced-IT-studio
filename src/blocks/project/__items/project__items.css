@@ -1,0 +1,11 @@
+.project__items {
+    cursor: pointer;
+}
+
+.project__items:nth-child(n + 5) {
+    display: none;
+}
+
+.project__items.visible {
+    display: flex;
+}

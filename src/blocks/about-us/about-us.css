@@ -1,12 +1,12 @@
 .about-us {
   background: #f6f6f8;
-  margin: 0 auto 207px;
+  margin: 0 auto 0px;
   width: 100%;
 }
 
 
 @media screen and (max-width: 1279px) {
   .about-us  {
-    margin: 0 auto 107px;
+    margin: 0 auto 0px;
   }
 }

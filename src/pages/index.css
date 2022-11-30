@@ -36,246 +36,189 @@
 @import url(../blocks/about-us/__text/about-us__text.css);
 @import url(../blocks/about-us/__link/about-us__link.css);
 @import url(../blocks/about-us/__image/about-us__image.css);
-/* !                  all-services                                 */
+/* !                  project                                 */
+@import url(../blocks/project/project.css);
+@import url(../blocks/project/__title/project__title.css);
+@import url(../blocks/project/__text/project__text.css);
+@import url(../blocks/project/__content/project__content.css);
+@import url(../blocks/project/__items/project__items.css);
+@import url(../blocks/project/__item/project__item.css);
+@import url(../blocks/project/__lead.css/project__lead.css);
+@import url(../blocks/project/__button/project__button.css);
 
-.project {
-  width: 1920px;
-  margin: 0 auto;
-  background: #f6f6f8;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-
-.project__title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 53px;
-  text-align: center;
-  margin: 100px auto 50px;
-  color: #000000;
-}
-
-.project__text {
-  margin: 0 auto 70px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 25px;
-  text-align: center;
-  color: #999999;
-}
-
-.project__content {
-  display: flex;
-  gap: 30px;
-  max-width: 1110px;
-  margin: 0 auto;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
-  flex-wrap: nowrap;
-}
-
-.project__items {
-  cursor: pointer;
-}
-
-.project__item {
-  width: 255px;
-  height: 255px;
-  border-radius: 10px;
-  border: none;
-}
-
-.project__link {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #ffffff;
-  padding: 13px 36px 15px;
-  max-width: 200px;
-  background: #4985ff;
-  box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
-  border-radius: 30px;
-  margin: 50px auto 130px;
-}
 
 .video {
-  width: 1920px;
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.15),
-      rgba(255, 255, 255, 0.15)
+    width: 1920px;
+    background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.15),
+            rgba(255, 255, 255, 0.15)
     ),
     url(../images/backgraund-video.png);
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
 }
 
 .video__title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 53px;
-  text-align: center;
-  margin: 0 auto 30px;
-  padding: 70px 0 0 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    margin: 0 auto 30px;
+    padding: 70px 0 0 0;
 }
 
 .video__text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 25px;
-  text-align: center;
-  margin: 0 auto 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    margin: 0 auto 70px;
 }
 
 .video__content {
-  margin: 0 0 50px 0;
-  width: 1110px;
+    margin: 0 0 50px 0;
+    width: 1110px;
 }
 
 .signature {
-  width: 1110px;
-  border-top: 1px solid #e0e0e0;
-  margin: 0 auto 85px;
+    width: 1110px;
+    border-top: 1px solid #e0e0e0;
+    margin: 0 auto 85px;
 }
 
 .signature__title {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #000000;
-  margin: 85px auto 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin: 85px auto 20px;
 }
 
 .signature__text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 25px;
-  text-align: center;
-  color: #999999;
-  margin: 0 auto 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    color: #999999;
+    margin: 0 auto 30px;
 }
 
 .signature__content {
-  display: flex;
-  max-width: 489px;
-  border-radius: 30px;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
+    display: flex;
+    max-width: 489px;
+    border-radius: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .signature__input {
-  background: #ffffff;
-  border: 1px solid #f2f2f2;
-  box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
-  border-radius: 30px 0 0 30px;
-  width: 299px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 21px;
-  color: #999999;
-  padding: 15px 0 13px 33px;
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px 0 0 30px;
+    width: 299px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #999999;
+    padding: 15px 0 13px 33px;
 }
 
 .signature__button {
-  width: 190px;
-  background: #4985ff;
-  border: 1px solid #4985ff;
-  box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
-  border-radius: 0 30px 30px 0;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #ffffff;
-  padding: 13px 36px 15px 26px;
+    width: 190px;
+    background: #4985ff;
+    border: 1px solid #4985ff;
+    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0 30px 30px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+    padding: 13px 36px 15px 26px;
 }
 
 .signature__desc {
-  margin: 35px auto 85px;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 21px;
-  text-align: center;
-  color: #999999;
+    margin: 35px auto 85px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
 }
 
 .footer {
-  background: #ffffff;
-  max-width: 1920px;
-  color: black;
+    background: #ffffff;
+    max-width: 1920px;
+    color: black;
 }
 
 .footer__columns {
-  display: flex;
-  margin: 0 auto;
-  max-width: 1100px;
-  justify-content: space-between;
-  align-items: flex-start;
-  border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 70px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1100px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 70px;
 }
 
 .footer__column {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__column-heading {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #000000;
-  margin: 70px auto 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 70px auto 35px;
 }
 
 .footer__column-links {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__column-link {
-  margin: 0 auto 30px 0;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 22px;
-  color: #999999;
-  text-decoration: none;
+    margin: 0 auto 30px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #999999;
+    text-decoration: none;
 }
 
 .footer__social-icon {
-  padding: 0 15px 0 0;
+    padding: 0 15px 0 0;
 }
 
 .footer__text {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 21px;
-  text-align: center;
-  color: #999999;
-  margin: 30px auto 0;
-  padding-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    text-align: center;
+    color: #999999;
+    margin: 30px auto 0;
+    padding-bottom: 30px;
 }
