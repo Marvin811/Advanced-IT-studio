@@ -1,0 +1,1 @@
+(()=>{"use strict";var e=document.querySelector(".services__button"),r=document.querySelectorAll(".services__item").length,t=3;e.addEventListener("click",(function(){t+=3;var c=Array.from(document.querySelector(".services__block").children).slice(0,t);c.forEach((function(e){return e.classList.add("is-visible")})),c.length===r&&(e.style.display="none")}))})();
