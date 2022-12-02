@@ -13,15 +13,27 @@
     <div class="page__container">
         <header class="header">
             <span class="header__border"></span>
-            <nav class="header__menu">
-                <ul class="header__list">
-                    <li><a class="header__link header__link_active" href="#home">Главная</a></li>
-                    <li><a class="header__link" href="#ourProjects">Наши проекты</a></li>
-                    <li><a class="header__link" href="#services">Услуги</a></li>
-                    <li><a class="header__link" href="#news">Новости</a></li>
-                    <li><a class="header__link" href="#contacts">Контакты</a></li>
-                </ul>
-            </nav>
+            <div class="header__container">
+                <div class="header__wrap">
+                    <nav class="header__menu">
+                        <div class="header__hamb">
+                            <div class="header__hamb-field" id="hamb">
+                                <span class="header__bar"></span>
+                                <span class="header__bar"></span>
+                                <span class="header__bar"></span>
+                            </div>
+                        </div>
+                        <ul class="header__list" id="menu">
+                            <li><a class="header__link header__link_active" href="#home">Главная</a></li>
+                            <li><a class="header__link" href="#ourProjects">Наши проекты</a></li>
+                            <li><a class="header__link" href="#services">Услуги</a></li>
+                            <li><a class="header__link" href="#news">Новости</a></li>
+                            <li><a class="header__link" href="#contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="header__popup" id="popupHeader"></div>
         </header>
         <main class="main">
             <section class="intro">
