@@ -1,0 +1,15 @@
+.header__hamb-field {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .header__hamb-field {
+    padding: 34px 20px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__hamb-field.active .header__bar:nth-child(2) {
+      opacity: 0;
+  }}

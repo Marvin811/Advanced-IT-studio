@@ -50,7 +50,7 @@ function hambHandler(e) {
     e.preventDefault();
     //Переключение стили элементов при клике
     popupHeader.classList.toggle('header__open');
-    hamb.classList.toggle("active");
+    hamb.classList.toggle("header__active");
     renderPopup();
 }
 
@@ -71,7 +71,7 @@ links.forEach((link => {
 //Закрытие попапа при клике на меню
 function closeOnClick() {
     popupHeader.classList.toggle('header__open');
-    hamb.classList.toggle("active");
+    hamb.classList.toggle("header__active");
 }
 
 

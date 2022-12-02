@@ -1,0 +1,9 @@
+.header__hamb {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .header__hamb {
+    display: flex;
+  }
+}

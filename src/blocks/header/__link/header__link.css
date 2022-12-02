@@ -7,3 +7,22 @@
   margin: 0 0 0 40px;
   text-decoration: none;
 }
+
+@media screen and (max-width: 767px) {
+  .header__link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #3f3f3f;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__link:hover {
+    background-color: rgba(122, 82, 179, 0.1);
+  }
+}
