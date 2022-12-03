@@ -4,9 +4,13 @@
 .page__container{margin:0 auto;max-width:1920px;min-height:100vh;min-width:320px}
 .header{margin-bottom:-100px;max-width:1920px;position:relative;z-index:1}
 .header__border{border-bottom:1px solid #fff;display:block;height:100px;margin:0 auto -77px;opacity:.5;width:100%}
+@media screen and (max-width:767px){.header__wrap{height:100px;left:0;position:absolute;top:0;width:100%}}
 .header__menu{margin:0 auto;max-width:720px}
-.header__list{display:flex;list-style-type:none;padding-left:10px}
-.header__link{color:#fff;font-size:16px;font-style:normal;font-weight:500;line-height:20px;margin:0 0 0 40px;text-decoration:none}
+.header__list{display:flex;list-style-type:none;padding-left:10px}@media screen and (max-width:767px){.header__list{align-items:center;display:none;flex-direction:column;height:100%;overflow:auto;padding:50px 0;width:100%}}
+.header__hamb{display:none}@media screen and (max-width:767px){.header__hamb{display:flex}}
+.header__hamb-field{cursor:pointer;padding:10px 20px}@media screen and (max-width:767px){.header__hamb-field{cursor:pointer;padding:34px 20px}.header__hamb-field.active .header__bar:nth-child(2){opacity:0}}
+@media screen and (max-width:767px){.header__bar{background-color:#fff;display:block;height:3px;margin:6px auto;transition:.2s;width:30px}}
+.header__link{color:#fff;font-size:16px;font-style:normal;font-weight:500;line-height:20px;margin:0 0 0 40px;text-decoration:none}@media screen and (max-width:767px){.header__link{color:#3f3f3f;display:flex;font-size:20px;font-weight:700;justify-content:center;margin:0 auto;padding:20px 0;width:100%}.header__link:hover{background-color:rgba(122,82,179,.1)}}
 .header__link_active{border-bottom:2px solid #fff;padding-bottom:40px;width:107px}
 .intro{background-size:cover;background:url(942da2fea67dfec5f510.png) no-repeat;height:900px;margin:0 auto;position:relative;width:100%}
 .intro__container{align-items:center;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;margin:0 auto;max-width:1140px;padding:319px 0 0}
@@ -35,12 +39,14 @@
 .project{background:#f6f6f8;display:flex;flex-direction:column;justify-content:flex-start;margin:0 auto;width:100%}
 .project__title{color:#000;font-size:36px;font-style:normal;font-weight:700;line-height:53px;margin:100px auto 50px;text-align:center}
 .project__text{color:#999;font-size:16px;font-style:normal;font-weight:400;line-height:25px;margin:0 auto 70px;text-align:center}
-.project__content{align-items:flex-start;display:flex;flex-direction:row;flex-wrap:nowrap;gap:30px;justify-content:center;margin:0 auto;max-width:1110px}
+.project__content{align-items:flex-start;display:flex;flex-direction:row;flex-wrap:wrap;gap:30px;justify-content:center;margin:0 auto;max-width:1110px}
 .project__items{cursor:pointer}.project__items:nth-child(n+5){display:none}.project__items.visible{display:flex}
 .project__item{border:none;border-radius:10px;height:255px;width:255px}
 .project__lead{font-size:16px;font-style:normal;font-weight:400;line-height:25px;margin:0 auto;text-align:center}
 .project__button{background:#4985ff;border:none;border-radius:30px;box-shadow:0 0 10px hsla(0,0%,44%,.25);cursor:pointer;display:flex;font-size:16px;font-style:normal;font-weight:500;line-height:20px;margin:0 auto 105px;padding:13px 50px 15px;text-align:center}
-/* !                  header                                 */
+/* !                  header                                 */@media screen and (max-width:767px){.header__popup{background-color:#fff;display:flex;height:100%;left:-100%;position:fixed;top:100px;transition:.3s;width:100%;z-index:100}.header__popup.header__open{left:0}.header__popup .header__list{align-items:center;display:flex;flex-direction:column;height:100%;overflow:auto;padding:50px 0;width:100%}.header__link{color:#3f3f3f;display:flex;font-size:20px;font-weight:700;justify-content:center;margin:0 auto;padding:20px 0;width:100%}.header__link:hover{background-color:rgba(122,82,179,.1)}.header__hamb-field.active .header__bar:nth-child(2){opacity:0}.header__hamb-field.active .header__bar:first-child{transform:translateY(8px) rotate(45deg)}.header__hamb-field.active .header__bar:nth-child(3){transform:translateY(-8px) rotate(-45deg)}}
+
+
 /* !                  intro                                 */
 /* !                  services                                 */
 /* !                  about-us                                 */
