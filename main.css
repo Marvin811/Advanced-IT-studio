@@ -3,10 +3,10 @@
 .page{background-color:#f6f6f8;color:#fff;font-family:Montserrat,Arial,sans-serif}@media screen and (max-width:767px){.page.noscroll{overflow:hidden}}
 .page__container{margin:0 auto;max-width:1920px;min-height:100vh;min-width:320px}
 .header{margin-bottom:-100px;max-width:1920px;position:relative;z-index:1}
-.header__border{border-bottom:1px solid #fff;display:block;height:100px;margin:0 auto -77px;opacity:.5;width:100%}
+.header__container{border-bottom:1px solid #fff;display:block;height:100px;margin:-20px auto 0;width:100%}
 @media screen and (max-width:767px){.header__wrap{height:100px;left:0;position:absolute;top:0;width:100%}}
 .header__menu{margin:0 auto;max-width:720px}
-.header__list{display:flex;list-style-type:none;padding-left:10px}@media screen and (max-width:767px){.header__list{align-items:center;display:none;flex-direction:column;height:100%;overflow:auto;padding:50px 0;width:100%}}
+.header__list{display:flex;list-style-type:none;padding:40px 0 40px 10px}@media screen and (max-width:767px){.header__list{align-items:center;display:none;flex-direction:column;height:100%;overflow:auto;padding:50px 0;width:100%}}
 .header__hamb{display:none}@media screen and (max-width:767px){.header__hamb{display:flex}}
 .header__hamb-field{cursor:pointer;padding:10px 20px}@media screen and (max-width:767px){.header__hamb-field{cursor:pointer;padding:34px 20px}.header__hamb-field.header__active .header__bar:nth-child(2){opacity:0}.header__hamb-field.header__active .header__bar:first-child{transform:translateY(8px) rotate(45deg)}.header__hamb-field.header__active .header__bar:nth-child(3){transform:translateY(-8px) rotate(-45deg)}}
 @media screen and (max-width:767px){.header__bar{background-color:#fff;display:block;height:3px;margin:6px auto;transition:.2s;width:30px}}
