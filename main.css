@@ -12,7 +12,7 @@
 @media screen and (max-width:767px){.header__bar{background-color:#fff;display:block;height:3px;margin:6px auto;transition:.2s;width:30px}}
 .header__link{color:#fff;font-size:16px;font-style:normal;font-weight:500;line-height:20px;margin:0 0 0 40px;text-decoration:none}@media screen and (max-width:767px){.header__link{color:#120202;display:flex;font-size:20px;font-weight:700;justify-content:center;margin:0 auto;padding:20px 0;width:100%}.header__link:hover{background-color:hsla(78,75%,74%,.651);width:205px}}
 .header__link_active{border-bottom:2px solid #fff;padding-bottom:40px;width:107px}@media screen and (max-width:767px){.header__link_active{border-bottom:2px solid #e11208;padding-bottom:15px;width:205px}}
-@media screen and (max-width:767px){.header__popup{background-color:#fff;display:flex;height:100%;left:-100%;position:fixed;top:100px;transition:.3s;width:100%;z-index:100}.header__popup.header__open{left:0}.header__popup .header__list{align-items:center;display:flex;flex-direction:column;height:100%;overflow:auto;padding:50px 0;width:100%}}
+@media screen and (max-width:767px){.header__popup{background-color:#fff;display:flex;height:100%;left:-100%;position:fixed;top:80px;transition:.3s;width:100%;z-index:100}.header__popup.header__open{left:0}.header__popup .header__list{align-items:center;display:flex;flex-direction:column;height:100%;overflow:auto;padding:50px 0;width:100%}}
 .intro{background-size:cover;background:url(942da2fea67dfec5f510.png) no-repeat;height:900px;margin:0 auto;position:relative;width:100%}
 .intro__container{align-items:center;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;margin:0 auto;max-width:1140px;padding:319px 0 0}
 .intro__text{color:#fff;font-size:16px;font-style:normal;font-weight:500;line-height:20px;margin:0 auto 20px;max-width:175px;padding:0;text-align:center}
@@ -36,7 +36,7 @@
 .about-us__title{color:#323232;font-size:36px;font-style:normal;font-weight:700;line-height:53px;margin:52px auto 15px 0;padding:0}@media screen and (max-width:1279px){.about-us__title{margin:0 auto 25px;text-align:center}}
 .about-us__text{color:#999;font-size:16px;font-style:normal;font-weight:400;line-height:25px;margin:0 auto 30px 0;max-width:489px}@media screen and (max-width:1279px){.about-us__text{margin:0 auto 25px;text-align:center}}
 .about-us__link{color:#4985ff;font-size:16px;font-style:normal;font-weight:500;line-height:20px;margin:0 auto 0 0;text-decoration-line:underline}@media screen and (max-width:1279px){.about-us__link{margin:0 auto 75px;text-align:center}}
-.about-us__image{border-radius:30px;box-shadow:0 0 10px hsla(0,0%,44%,.25);height:400px;margin:0 0 90px;width:500px}@media screen and (max-width:1279px){.about-us__image{margin:0 0 45px}}
+.about-us__image{border-radius:30px;box-shadow:0 0 10px hsla(0,0%,44%,.25);height:400px;margin:0 0 90px;width:500px}@media screen and (max-width:1279px){.about-us__image{margin:0 0 45px}}@media screen and (max-width:767px){.about-us__image{height:300px;width:300px}}
 .project{background:#f6f6f8;display:flex;flex-direction:column;justify-content:flex-start;margin:0 auto;width:100%}
 .project__title{color:#000;font-size:36px;font-style:normal;font-weight:700;line-height:53px;margin:100px auto 50px;text-align:center}
 .project__text{color:#999;font-size:16px;font-style:normal;font-weight:400;line-height:25px;margin:0 auto 70px;text-align:center}
@@ -45,10 +45,31 @@
 .project__item{border:none;border-radius:10px;height:255px;width:255px}
 .project__lead{font-size:16px;font-style:normal;font-weight:400;line-height:25px;margin:0 auto;text-align:center}
 .project__button{background:#4985ff;border:none;border-radius:30px;box-shadow:0 0 10px hsla(0,0%,44%,.25);cursor:pointer;display:flex;font-size:16px;font-style:normal;font-weight:500;line-height:20px;margin:0 auto 105px;padding:13px 50px 15px;text-align:center}
+.video{align-items:center;background:linear-gradient(0deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,.15)),url(9b719e5b9e45033a7411.png);background-repeat:no-repeat;display:flex;flex-direction:column;justify-content:center;margin:0 auto;width:100%}
+.video__title{font-size:36px;font-style:normal;font-weight:700;line-height:53px;margin:0 auto 30px;padding:70px 0 0;text-align:center}
+.video__text{font-size:16px;font-style:normal;font-weight:400;line-height:25px;margin:0 auto 70px;text-align:center}
+.video__content{margin:0 0 50px;width:77%}
+.signature{border-top:1px solid #e0e0e0;margin:0 auto 85px;width:100%}
+.signature__title{color:#000;font-size:18px;font-style:normal;font-weight:600;line-height:22px;margin:85px auto 20px;text-align:center}
+.signature__text{color:#999;font-size:16px;font-style:normal;font-weight:400;line-height:25px;margin:0 auto 30px;text-align:center}
+.signature__content{align-items:center;border-radius:30px;display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:center;margin:0 auto;max-width:489px}
+.signature__input{background:#fff;border:1px solid #f2f2f2;border-radius:30px 0 0 30px;box-shadow:0 0 10px hsla(0,0%,44%,.25);color:#999;font-size:13px;font-style:normal;font-weight:400;line-height:21px;padding:15px 0 13px 33px;width:299px}
+.signature__button{background:#4985ff;border:1px solid #4985ff;border-radius:0 30px 30px 0;box-shadow:0 0 10px hsla(0,0%,44%,.25);color:#fff;font-size:16px;font-style:normal;font-weight:500;line-height:20px;padding:13px 36px 15px 26px;text-align:center;width:190px}
+.signature__desc{color:#999;font-size:13px;font-style:normal;font-weight:400;line-height:21px;margin:35px auto 85px;text-align:center}
+.footer{background:#fff;color:#000;max-width:100%}
+.footer__columns{align-items:flex-start;border-bottom:1px solid #e0e0e0;display:flex;justify-content:space-between;margin:0 auto;max-width:1140px;padding-bottom:70px}@media screen and (max-width:1279px){.footer__columns{flex-direction:row;flex-wrap:wrap;gap:30px;max-width:77%;padding-bottom:40px;padding-left:30px;padding-right:30px}}
+.footer__column{display:flex;flex-direction:column}
+.footer__column-heading{color:#000;font-size:18px;font-style:normal;font-weight:600;line-height:22px;margin:70px auto 35px}
+.footer__column-links{display:flex;flex-direction:column}
+.footer__column-link{color:#999;font-size:14px;font-style:normal;font-weight:400;line-height:22px;margin:0 auto 30px 0;text-decoration:none}
+.footer__social-icon{padding:0 15px 0 0}
+.footer__text{color:#999;font-size:13px;font-style:normal;font-weight:400;line-height:21px;margin:30px auto 0;padding-bottom:30px;text-align:center}
 /* !                  header                                 */
-
 
 /* !                  intro                                 */
 /* !                  services                                 */
 /* !                  about-us                                 */
-/* !                  project                                 */.video{align-items:center;background:linear-gradient(0deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,.15)),url(9b719e5b9e45033a7411.png);background-repeat:no-repeat;display:flex;flex-direction:column;justify-content:center;margin:0 auto;width:1920px}.video__title{font-size:36px;font-weight:700;line-height:53px;margin:0 auto 30px;padding:70px 0 0}.video__text,.video__title{font-style:normal;text-align:center}.video__text{font-size:16px;font-weight:400;line-height:25px;margin:0 auto 70px}.video__content{margin:0 0 50px;width:1110px}.signature{border-top:1px solid #e0e0e0;margin:0 auto 85px;width:1110px}.signature__title{color:#000;font-size:18px;font-weight:600;line-height:22px;margin:85px auto 20px}.signature__text,.signature__title{font-style:normal;text-align:center}.signature__text{color:#999;font-size:16px;font-weight:400;line-height:25px;margin:0 auto 30px}.signature__content{align-items:center;border-radius:30px;display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:center;margin:0 auto;max-width:489px}.signature__input{background:#fff;border:1px solid #f2f2f2;border-radius:30px 0 0 30px;color:#999;font-size:13px;font-weight:400;line-height:21px;padding:15px 0 13px 33px;width:299px}.signature__button,.signature__input{box-shadow:0 0 10px hsla(0,0%,44%,.25);font-style:normal}.signature__button{background:#4985ff;border:1px solid #4985ff;border-radius:0 30px 30px 0;color:#fff;font-size:16px;font-weight:500;line-height:20px;padding:13px 36px 15px 26px;text-align:center;width:190px}.signature__desc{color:#999;font-size:13px;font-style:normal;font-weight:400;line-height:21px;margin:35px auto 85px;text-align:center}.footer{background:#fff;color:#000;max-width:1920px}.footer__columns{align-items:flex-start;border-bottom:1px solid #e0e0e0;display:flex;justify-content:space-between;margin:0 auto;max-width:1100px;padding-bottom:70px}.footer__column{display:flex;flex-direction:column}.footer__column-heading{color:#000;font-size:18px;font-style:normal;font-weight:600;line-height:22px;margin:70px auto 35px}.footer__column-links{display:flex;flex-direction:column}.footer__column-link{color:#999;font-size:14px;font-style:normal;font-weight:400;line-height:22px;margin:0 auto 30px 0;text-decoration:none}.footer__social-icon{padding:0 15px 0 0}.footer__text{color:#999;font-size:13px;font-style:normal;font-weight:400;line-height:21px;margin:30px auto 0;padding-bottom:30px;text-align:center}
+/* !                  project                                 */
+/* !                  video                                 */
+/* !                  signature                                 */
+/* !                  footer                                 */
