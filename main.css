@@ -8,10 +8,11 @@
 .header__menu{margin:0 auto;max-width:720px}
 .header__list{display:flex;list-style-type:none;padding-left:10px}@media screen and (max-width:767px){.header__list{align-items:center;display:none;flex-direction:column;height:100%;overflow:auto;padding:50px 0;width:100%}}
 .header__hamb{display:none}@media screen and (max-width:767px){.header__hamb{display:flex}}
-.header__hamb-field{cursor:pointer;padding:10px 20px}@media screen and (max-width:767px){.header__hamb-field{cursor:pointer;padding:34px 20px}.header__hamb-field.active .header__bar:nth-child(2){opacity:0}}
+.header__hamb-field{cursor:pointer;padding:10px 20px}@media screen and (max-width:767px){.header__hamb-field{cursor:pointer;padding:34px 20px}.header__hamb-field.header__active .header__bar:nth-child(2){opacity:0}.header__hamb-field.header__active .header__bar:first-child{transform:translateY(8px) rotate(45deg)}.header__hamb-field.header__active .header__bar:nth-child(3){transform:translateY(-8px) rotate(-45deg)}}
 @media screen and (max-width:767px){.header__bar{background-color:#fff;display:block;height:3px;margin:6px auto;transition:.2s;width:30px}}
-.header__link{color:#fff;font-size:16px;font-style:normal;font-weight:500;line-height:20px;margin:0 0 0 40px;text-decoration:none}@media screen and (max-width:767px){.header__link{color:#3f3f3f;display:flex;font-size:20px;font-weight:700;justify-content:center;margin:0 auto;padding:20px 0;width:100%}.header__link:hover{background-color:rgba(122,82,179,.1)}}
-.header__link_active{border-bottom:2px solid #fff;padding-bottom:40px;width:107px}
+.header__link{color:#fff;font-size:16px;font-style:normal;font-weight:500;line-height:20px;margin:0 0 0 40px;text-decoration:none}@media screen and (max-width:767px){.header__link{color:#120202;display:flex;font-size:20px;font-weight:700;justify-content:center;margin:0 auto;padding:20px 0;width:100%}.header__link:hover{background-color:hsla(78,75%,74%,.651);width:205px}}
+.header__link_active{border-bottom:2px solid #fff;padding-bottom:40px;width:107px}@media screen and (max-width:767px){.header__link_active{border-bottom:2px solid #e11208;padding-bottom:15px;width:205px}}
+@media screen and (max-width:767px){.header__popup{background-color:#fff;display:flex;height:100%;left:-100%;position:fixed;top:100px;transition:.3s;width:100%;z-index:100}.header__popup.header__open{left:0}.header__popup .header__list{align-items:center;display:flex;flex-direction:column;height:100%;overflow:auto;padding:50px 0;width:100%}}
 .intro{background-size:cover;background:url(942da2fea67dfec5f510.png) no-repeat;height:900px;margin:0 auto;position:relative;width:100%}
 .intro__container{align-items:center;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;margin:0 auto;max-width:1140px;padding:319px 0 0}
 .intro__text{color:#fff;font-size:16px;font-style:normal;font-weight:500;line-height:20px;margin:0 auto 20px;max-width:175px;padding:0;text-align:center}
@@ -44,7 +45,7 @@
 .project__item{border:none;border-radius:10px;height:255px;width:255px}
 .project__lead{font-size:16px;font-style:normal;font-weight:400;line-height:25px;margin:0 auto;text-align:center}
 .project__button{background:#4985ff;border:none;border-radius:30px;box-shadow:0 0 10px hsla(0,0%,44%,.25);cursor:pointer;display:flex;font-size:16px;font-style:normal;font-weight:500;line-height:20px;margin:0 auto 105px;padding:13px 50px 15px;text-align:center}
-/* !                  header                                 */@media screen and (max-width:767px){.header__popup{background-color:#fff;display:flex;height:100%;left:-100%;position:fixed;top:100px;transition:.3s;width:100%;z-index:100}.header__popup.header__open{left:0}.header__popup .header__list{align-items:center;display:flex;flex-direction:column;height:100%;overflow:auto;padding:50px 0;width:100%}.header__link{color:#3f3f3f;display:flex;font-size:20px;font-weight:700;justify-content:center;margin:0 auto;padding:20px 0;width:100%}.header__link:hover{background-color:rgba(122,82,179,.1)}.header__hamb-field.active .header__bar:nth-child(2){opacity:0}.header__hamb-field.active .header__bar:first-child{transform:translateY(8px) rotate(45deg)}.header__hamb-field.active .header__bar:nth-child(3){transform:translateY(-8px) rotate(-45deg)}}
+/* !                  header                                 */
 
 
 /* !                  intro                                 */
