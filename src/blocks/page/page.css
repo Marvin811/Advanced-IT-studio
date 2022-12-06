@@ -3,3 +3,9 @@
   color: white;
   font-family: "Montserrat", Arial, sans-serif;
 }
+
+@media screen and (max-width: 767px) {
+  .page.noscroll {
+    overflow: hidden;
+  }
+}

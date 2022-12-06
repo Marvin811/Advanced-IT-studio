@@ -1,0 +1,13 @@
+.signature__input {
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px 0 0 30px;
+  width: 299px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #999999;
+  padding: 15px 0 13px 33px;
+}

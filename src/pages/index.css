@@ -4,79 +4,16 @@
 @import url(../blocks/page/__container/page__container.css);
 /* !                  header                                 */
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__border/header__border.css);
+@import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__wrap/header__wrap.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__hamb/header__hamb.css);
 @import url(../blocks/header/__hamb-field/header__hamb-field.css);
 @import url(../blocks/header/__bar/header__bar.css);
-
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__link/header__link_active.css);
-
-
-@media screen and (max-width: 767px) {
-    .header__popup {
-        position: fixed;
-        top: 100px;
-        left: -100%;
-        width: 100%;
-        height: 100%;
-        background-color: #fff;
-        z-index: 100;
-        display: flex;
-        transition: 0.3s;
-    }
-
-    .header__popup.header__open {
-        left: 0;
-    }
-
-    .header__popup .header__list {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /*justify-content: start;*/
-        padding: 50px 0;
-        overflow: auto;
-    }
-
-
-    /*.header__popup .header__list > li > */
-    .header__link {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        padding: 20px 0;
-        font-size: 20px;
-        font-weight: bold;
-        color: #3f3f3f;
-        margin: 0 auto;
-    }
-
-    /*.header__popup .header__list > li > */
-    .header__link:hover {
-        background-color: rgba(122, 82, 179, 0.1);
-    }
-
-
-
-    .header__hamb-field.active .header__bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .header__hamb-field.active .header__bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .header__hamb-field.active .header__bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-}
-
+@import url(../blocks/header/__popup/header__popup.css);
 
 /* !                  intro                                 */
 @import url(../blocks/intro/intro.css);
@@ -114,179 +51,25 @@
 @import url(../blocks/project/__item/project__item.css);
 @import url(../blocks/project/__lead.css/project__lead.css);
 @import url(../blocks/project/__button/project__button.css);
-
-.video {
-    width: 1920px;
-    background: linear-gradient(
-            0deg,
-            rgba(255, 255, 255, 0.15),
-            rgba(255, 255, 255, 0.15)
-    ),
-    url(../images/backgraund-video.png);
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-repeat: no-repeat;
-}
-
-.video__title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 53px;
-    text-align: center;
-    margin: 0 auto 30px;
-    padding: 70px 0 0 0;
-}
-
-.video__text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
-    margin: 0 auto 70px;
-}
-
-.video__content {
-    margin: 0 0 50px 0;
-    width: 1110px;
-}
-
-.signature {
-    width: 1110px;
-    border-top: 1px solid #e0e0e0;
-    margin: 0 auto 85px;
-}
-
-.signature__title {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    text-align: center;
-    color: #000000;
-    margin: 85px auto 20px;
-}
-
-.signature__text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-    text-align: center;
-    color: #999999;
-    margin: 0 auto 30px;
-}
-
-.signature__content {
-    display: flex;
-    max-width: 489px;
-    border-radius: 30px;
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
-.signature__input {
-    background: #ffffff;
-    border: 1px solid #f2f2f2;
-    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
-    border-radius: 30px 0 0 30px;
-    width: 299px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 21px;
-    color: #999999;
-    padding: 15px 0 13px 33px;
-}
-
-.signature__button {
-    width: 190px;
-    background: #4985ff;
-    border: 1px solid #4985ff;
-    box-shadow: 0 0 10px rgba(111, 111, 111, 0.25);
-    border-radius: 0 30px 30px 0;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: center;
-    color: #ffffff;
-    padding: 13px 36px 15px 26px;
-}
-
-.signature__desc {
-    margin: 35px auto 85px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 21px;
-    text-align: center;
-    color: #999999;
-}
-
-.footer {
-    background: #ffffff;
-    max-width: 1920px;
-    color: black;
-}
-
-.footer__columns {
-    display: flex;
-    margin: 0 auto;
-    max-width: 1100px;
-    justify-content: space-between;
-    align-items: flex-start;
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 70px;
-}
-
-.footer__column {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer__column-heading {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 22px;
-    color: #000000;
-    margin: 70px auto 35px;
-}
-
-.footer__column-links {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer__column-link {
-    margin: 0 auto 30px 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 22px;
-    color: #999999;
-    text-decoration: none;
-}
-
-.footer__social-icon {
-    padding: 0 15px 0 0;
-}
-
-.footer__text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    line-height: 21px;
-    text-align: center;
-    color: #999999;
-    margin: 30px auto 0;
-    padding-bottom: 30px;
-}
+/* !                  video                                 */
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/video/__text/video__text.css);
+@import url(../blocks/video/__conten/video__content.css);
+/* !                  signature                                 */
+@import url(../blocks/signature/signature.css);
+@import url(../blocks/signature/__title/signature__title.css);
+@import url(../blocks/signature/__text/signature__text.css);
+@import url(../blocks/signature/__content/signature__content.css);
+@import url(../blocks/signature/__input/signature__input.css);
+@import url(../blocks/signature/__button/signature__button.css);
+@import url(../blocks/signature/__desc/signature__desc.css);
+/* !                  footer                                 */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
+@import url(../blocks/footer/__column/footer__column.css);
+@import url(../blocks/footer/__column-heading/footer__column-heading.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__column-link/footer__column-link.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__text/footer__text.css);

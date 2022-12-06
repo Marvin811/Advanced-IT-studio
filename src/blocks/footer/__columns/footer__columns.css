@@ -1,0 +1,22 @@
+.footer__columns {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 70px;
+  max-width: 1140px;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .footer__columns {
+    max-width: 77%;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 30px;
+    padding-bottom: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

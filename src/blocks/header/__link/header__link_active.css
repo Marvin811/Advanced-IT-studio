@@ -3,3 +3,12 @@
   border-bottom: 2px solid #ffffff;
   width: 107px;
 }
+
+
+@media screen and (max-width: 767px) {
+  .header__link_active {
+    border-bottom: 2px solid #e11208;
+padding-bottom: 15px;
+width: 205px;
+  }
+}

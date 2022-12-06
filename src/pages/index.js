@@ -37,7 +37,7 @@ allProjects.addEventListener('click', () => {
 //burger menu
 const hamb = document.querySelector("#hamb");
 const popupHeader = document.querySelector('#popupHeader');
-// const body = document.body;
+const body = document.querySelector('.page');
 
 //Клонируем меню, чтобы задать свои стили для мобильной версии
 const menu = document.querySelector('#menu').cloneNode(1);
@@ -51,6 +51,7 @@ function hambHandler(e) {
     //Переключение стили элементов при клике
     popupHeader.classList.toggle('header__open');
     hamb.classList.toggle("header__active");
+    body.classList.toggle("noscroll");
     renderPopup();
 }
 
@@ -72,6 +73,7 @@ links.forEach((link => {
 function closeOnClick() {
     popupHeader.classList.toggle('header__open');
     hamb.classList.toggle("header__active");
+    body.classList.remove("noscroll");
 }
 
 

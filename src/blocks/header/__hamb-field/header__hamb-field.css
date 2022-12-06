@@ -8,8 +8,16 @@
     padding: 34px 20px;
     cursor: pointer;
   }
+
+  .header__hamb-field.header__active .header__bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .header__hamb-field.header__active .header__bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .header__hamb-field.header__active .header__bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
 }
-@media screen and (max-width: 767px) {
-  .header__hamb-field.active .header__bar:nth-child(2) {
-      opacity: 0;
-  }}

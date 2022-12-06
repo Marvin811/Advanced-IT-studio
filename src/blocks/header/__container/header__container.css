@@ -1,0 +1,7 @@
+.header__container {
+  border-bottom: 1px solid #fff;
+  display: block;
+  height: 100px;
+  margin: -20px auto 0px;
+  width: 100%;
+}

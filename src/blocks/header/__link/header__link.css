@@ -16,13 +16,12 @@
     padding: 20px 0;
     font-size: 20px;
     font-weight: bold;
-    color: #3f3f3f;
+    color: #120202;
     margin: 0 auto;
   }
-}
 
-@media screen and (max-width: 767px) {
   .header__link:hover {
-    background-color: rgba(122, 82, 179, 0.1);
+    background-color: rgba(208, 238, 138, 0.651);
+    width: 205px;
   }
 }
