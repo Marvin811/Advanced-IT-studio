@@ -10,4 +10,11 @@
   text-align: center;
   margin: 33px auto 0;
   padding: 13px 36px 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #323232;
+}
+
+.intro__link:hover {
+  background-color: rgb(124, 108, 196);
 }
