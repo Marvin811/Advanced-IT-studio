@@ -7,3 +7,10 @@
   text-align: center;
   color: #999999;
 }
+
+@media screen and (max-width: 767px) {
+  .signature__desc {
+    font-size: 12px;
+   max-width: 300px;
+  }
+}

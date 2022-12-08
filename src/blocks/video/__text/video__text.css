@@ -6,3 +6,9 @@
   text-align: center;
   margin: 0 auto 70px;
 }
+
+@media screen and (max-width: 767px) {
+  .video__text {
+    font-size: 14px;
+  }
+}

@@ -11,3 +11,10 @@
   color: #999999;
   padding: 15px 0 13px 33px;
 }
+
+@media screen and (max-width: 767px) {
+  .signature__input {
+    font-size: 12px;
+    max-width: 180px;
+  }
+}

@@ -9,3 +9,9 @@
   padding: 0;
   margin: 0 auto 20px;
 }
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    font-size: 12px;
+  }
+}

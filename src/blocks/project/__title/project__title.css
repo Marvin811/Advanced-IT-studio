@@ -7,3 +7,11 @@
     margin: 100px auto 50px;
     color: #000000;
 }
+
+@media screen and (max-width: 767px) {
+    .project__title {
+        font-size: 26px;
+        max-width: 300px;
+        margin: 30px auto 50px;
+    }
+}

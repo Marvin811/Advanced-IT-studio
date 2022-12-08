@@ -76,7 +76,7 @@ function closeOnClick() {
   body.classList.remove("noscroll");
 }
 
-document.querySelectorAll('a[href^="#"').forEach(link => {
+document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener("click", function (event) {
     event.preventDefault();
 

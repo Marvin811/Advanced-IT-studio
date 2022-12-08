@@ -12,3 +12,11 @@
   color: #ffffff;
   padding: 13px 36px 15px 26px;
 }
+
+@media screen and (max-width: 767px) {
+  .signature__button {
+    font-size: 12px;
+    width: 90px;
+    padding: 13px 36px 15px 2px;
+  }
+}

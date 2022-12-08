@@ -6,4 +6,13 @@
     line-height: 25px;
     text-align: center;
     color: #999999;
+    max-width: 768px;
+}
+
+@media screen and (max-width: 767px) {
+    .project__text {
+        font-size: 14px;
+        max-width: 300px;
+        margin: 0 auto 50px;
+    }
 }
