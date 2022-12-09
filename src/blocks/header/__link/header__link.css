@@ -8,6 +8,11 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: #bebebe;
+}
+
+
 @media screen and (max-width: 767px) {
   .header__link {
     width: 100%;
