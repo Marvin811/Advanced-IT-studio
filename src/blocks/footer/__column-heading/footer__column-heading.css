@@ -6,3 +6,9 @@
   color: #000000;
   margin: 70px auto 35px;
 }
+
+@media screen and (max-width: 767px) {
+  .footer__column-heading {
+    margin: 20px auto 25px;
+  }
+}

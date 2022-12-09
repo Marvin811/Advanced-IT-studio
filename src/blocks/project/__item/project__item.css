@@ -1,6 +1,14 @@
 .project__item {
-    width: 255px;
+    width: 500px;
     height: 255px;
-    border-radius: 10px;
+    border-radius: 25px;
     border: none;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 767px) {
+    .project__item {
+        width: 280px;
+        height: 135px;
+    }
 }
