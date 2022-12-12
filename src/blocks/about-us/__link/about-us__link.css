@@ -6,6 +6,8 @@
   text-decoration-line: underline;
   color: #4985ff;
   margin: 0 auto 0 0;
+  border: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1279px) {
